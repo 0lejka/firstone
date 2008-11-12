@@ -2,7 +2,7 @@ import twill
 import twill.extensions.check_links
 IP = '127.0.0.1'
 PORT = 8000
-SITE = 'http://%s:%s' % (IP, PORT)
+SITE = 'http://%s:%s/accounts/register/' % (IP, PORT)
 
 class TwillMock(object):
 
